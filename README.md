@@ -10,3 +10,4 @@ terraform plan -out=plan
 terraform show -json plan > plan.json
 checkov -f plan.json
 ```
+
